@@ -121,9 +121,9 @@ body {
 }
 
 .nav-item {
-    background-color: brown;
+    background-color: #a57c2a;;
     text-align: center;
-    padding: 2%;
+    padding: 1%;
     height: fit-content;
     position: relative;
     
@@ -131,7 +131,7 @@ body {
 
 .nav__primary {
     display: none;
-    background-color: brown;
+    background-color: #a57c2a;;
     border: 2px solid black;
     position: absolute;
     top: 122px;
