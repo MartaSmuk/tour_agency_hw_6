@@ -27,27 +27,20 @@ body {
 
 .heading,
 .note {
+    display: flex;
+    justify-content: center;
     background-color: rgba(78, 65, 28, 0.563);
     color: rgb(34, 22, 5);
     padding: 25px 0;
-    text-align: center;
 }
 
-.heading {
-    position: fixed;
-    justify-content: left;
-    align-items: center;
-    display: flex;
-    gap: 25%;
-    width: 100%;
-    z-index: 1000;
-    top: 0;
+.heading__item {
+    text-align: center;
 }
 
 .note__item {
     text-decoration: none;
     color: yellow;
-    float: right;
     padding-right: 5%;
     font-weight: bold;
     font-size: 26px;
@@ -59,6 +52,7 @@ body {
     padding: 2% 8%;
     grid-template-columns: 1fr 1fr;
     margin: 18% 14%;
+    margin-bottom: 2%;
     background-color: rgba(128, 128, 128, 0.663);
     border-radius: 20px;
 }
@@ -109,7 +103,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-    gap: 4%;
+    gap: 2%;
     margin: 0 11%;
     padding-top: 100px;
     background-color: rgba(128, 128, 128, 0.663);
@@ -204,7 +198,6 @@ body {
     font-weight: bold;
 }
 
-
 .nav__primary-item {
     position: relative;
     padding: 10px;
@@ -214,6 +207,25 @@ body {
 .nav__primary-item:hover .nav__secondary {
     display: flex;
     flex-direction: column;
+}
+
+.note {
+    justify-content: flex-end;
+}
+
+.heading-trips {
+    position: fixed;
+    background-color: rgba(78, 65, 28, 0.563);
+    color: rgb(34, 22, 5);
+    padding: 25px 0;
+    width: 100%;
+}
+
+.heading-trips__container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 25%;
 }
 
 
