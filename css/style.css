@@ -29,12 +29,16 @@ body {
 .note {
     background-color: rgba(78, 65, 28, 0.563);
     color: rgb(34, 22, 5);
-    padding: 30px 0;
+    padding: 25px 0;
     text-align: center;
 }
 
 .heading {
     position: fixed;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    gap: 25%;
     width: 100%;
     z-index: 1000;
     top: 0;
@@ -87,6 +91,18 @@ body {
     color: #0a3b0d;
     padding: 2% 6%;
     margin-top: 3%;
+}
+
+.heading__home {
+    font-size: 20px;
+    background-color: #a36f24;
+    text-align: left;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 2%;
 }
 
 .destinations {
