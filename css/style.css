@@ -33,6 +33,13 @@ body {
     text-align: center;
 }
 
+.heading {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
 .note__item {
     text-decoration: none;
     color: yellow;
@@ -88,6 +95,7 @@ body {
     grid-template-rows: repeat(6, 1fr);
     gap: 4%;
     margin: 0 11%;
+    padding-top: 100px;
     background-color: rgba(128, 128, 128, 0.663);
 }
 
