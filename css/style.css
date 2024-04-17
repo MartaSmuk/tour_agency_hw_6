@@ -47,7 +47,7 @@ body {
     gap: 52px;
     padding: 2% 8%;
     grid-template-columns: 1fr 1fr;
-    margin: 5% 14%;
+    margin: 18% 14%;
     background-color: rgba(128, 128, 128, 0.663);
     border-radius: 20px;
 }
@@ -134,7 +134,7 @@ body {
     background-color: #ab9873;
     position: absolute;
     padding: 15px 0;
-    top: 71px;
+    top: 57px;
     width: 100%;
     left: 0;
 }
