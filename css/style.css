@@ -173,6 +173,12 @@ body {
     padding-left: 7px;
 }
 
+.nav__secondary-item a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
 
 .nav__primary-item {
     position: relative;
