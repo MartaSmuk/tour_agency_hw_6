@@ -173,7 +173,8 @@ body {
     padding-left: 7px;
 }
 
-.nav__secondary-item a {
+.nav__secondary-item a,
+.nav__primary-item a {
     text-decoration: none;
     color: orange;
     font-weight: bold;
